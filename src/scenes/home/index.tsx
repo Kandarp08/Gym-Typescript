@@ -21,7 +21,7 @@ const Home = ({setSelectedPage} : Props) => {
 
         <section
             id="home"
-            className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0"
+            className="gap-16 bg-gray-20 py-20 md:h-full md:pb-0"
         >
             <motion.div 
                 className="md:flex mx-auto w-5/6 items-center justify-center md:h-5/6"
@@ -76,7 +76,7 @@ const Home = ({setSelectedPage} : Props) => {
                     </motion.div>
                 </div>
         
-                <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
+                <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:mb-16 md:justify-items-end">
                     <img alt="home-page-graphic" src={HomePageGraphic} />
                 </div>  
             </motion.div>
