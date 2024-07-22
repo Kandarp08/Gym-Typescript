@@ -4,6 +4,7 @@ import Benefits from '@/scenes/benefits';
 import { useEffect, useState } from 'react';
 import { SelectedPage } from "@/shared/types";
 import OurClasses from './scenes/ourclasses';
+import ContactUs from './scenes/contactus';
 
 function App()
 {
@@ -47,6 +48,10 @@ function App()
             />
 
             <OurClasses
+                setSelectedPage={setSelectedPage}
+            />
+
+            <ContactUs 
                 setSelectedPage={setSelectedPage}
             />
 
